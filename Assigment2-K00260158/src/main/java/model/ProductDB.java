@@ -6,6 +6,27 @@ import java.util.List;
 import java.util.Optional;
 
 public class ProductDB {
+
+    public static List<Product> getAllProducts() {
+        EntityManager em = DBUtil.getEMF().createEntityManager();
+
+        String query = "SELECT p from Product p";
+
+        TypedQuery<Product> tq = em.createQuery(query, Product.class);
+
+        List<Product> list = null;
+
+        try {
+            list = tq.getResultList();
+        } catch (Exception ex) {
+            System.out.println(ex);
+        } finally {
+            em.close();
+        }
+        return list;
+
+    }// end getAllProducts
+
     public static Optional<Product> getProductByID(int id) {
         EntityManager em = DBUtil.getEMF().createEntityManager();
 
@@ -24,24 +45,5 @@ public class ProductDB {
         } else {
             return Optional.empty(); // Return an empty Optional if customer is not found
         }
-    }
-    public static List<Product> getAll() {
-        EntityManager em = DBUtil.getEMF().createEntityManager();
-
-        String query = "SELECT p from Product p";
-
-        TypedQuery<Product> tq = em.createQuery(query, Product.class);
-
-        List<Product> list = null;
-
-        try {
-            list = tq.getResultList();
-        } catch (Exception ex) {
-            System.out.println(ex);
-        } finally {
-            em.close();
-        }
-        return list;
-
-    }
+    }// end getProductByID
 }

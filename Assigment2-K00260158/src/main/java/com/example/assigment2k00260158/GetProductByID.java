@@ -14,22 +14,20 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "GetProductByID_Servlet", value = "/GetProductByID")
-public class GetProductByID_Servlet extends HttpServlet {
+@WebServlet(name = "GetProductByID", value = "/GetProductByID")
+public class GetProductByID extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         response.setContentType("text/html");
 
         String nextPage = "";
 
-        response.setContentType("text/html");
-
         int productID = Integer.parseInt(request.getParameter("id"));
 
-        Optional<Product> optProduct = ProductDB.getProductByID(productID);
+        Optional<Product> optProd = ProductDB.getProductByID(productID);
 
-        if(optProduct.isPresent()) {
-            request.setAttribute("product", optProduct.get());
+        if (optProd.isPresent()) {
+            request.setAttribute("product", optProd.get());
             nextPage = "displayOne.jsp";
         }
         else {
@@ -41,6 +39,4 @@ public class GetProductByID_Servlet extends HttpServlet {
         dispatcher.forward(request, response);
     }
 
-    public void destroy() {
-    }
 }

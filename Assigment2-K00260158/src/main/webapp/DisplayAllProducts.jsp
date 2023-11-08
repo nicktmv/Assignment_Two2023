@@ -37,6 +37,10 @@
                 <td><a href="GetProductByID?id=${products.productID}"><img src="assets/images/thumbs/${product.product_image}" alt="${product.product_name}" width="100" height="100"></a></td>
                 <td>${product.product_name}</td>
                 <td>${product.description}</td>
+                <td>${product.price}</td>
+                <td>${product.size}</td>
+                <td>${product.color}</td>
+                <td>${product.sustainability_rating}</td>
             </tr>
         </c:forEach>
         </tbody>
