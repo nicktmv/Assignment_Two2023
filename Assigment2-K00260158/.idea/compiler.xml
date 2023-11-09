@@ -10,5 +10,8 @@
         <module name="Assigment2-K00260158" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Assigment2-K00260158" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
