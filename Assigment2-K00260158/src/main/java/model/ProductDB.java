@@ -11,9 +11,7 @@ public class ProductDB {
         EntityManager em = DBUtil.getEMF().createEntityManager();
 
         String query = "SELECT p from Product p";
-
         TypedQuery<Product> tq = em.createQuery(query, Product.class);
-
         List<Product> list = null;
 
         try {
@@ -29,7 +27,6 @@ public class ProductDB {
 
     public static Optional<Product> getProductByID(int id) {
         EntityManager em = DBUtil.getEMF().createEntityManager();
-
         Product product = null;
         try {
             product = em.find(Product.class, id);
