@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdd772d7-b67e-46cf-b110-1660fdc612e3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assigment2-K00260158/src/main/java/com/example/assigment2k00260158/GetAllProducts_Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assigment2-K00260158/src/main/webapp/WEB-INF/includes/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment2-K00260158/src/main/java/com/example/assigment2k00260158/GetProductByID_Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment2-K00260158/src/main/java/com/example/assigment2k00260158/GetProductByID_Servlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment2-K00260158/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment2-K00260158/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2XtTKbBzqxPuFis8SLszZX1jA43" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nick2/OneDrive/Desktop/Assignment_Two2023/Assigment2-K00260158&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdd772d7-b67e-46cf-b110-1660fdc612e3" name="Changes" comment="" />
+      <created>1699447317163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699447317163</updated>
+      <workItem from="1699447317480" duration="26000" />
+      <workItem from="1699447458960" duration="64000" />
+      <workItem from="1699447542871" duration="17000" />
+      <workItem from="1699473935868" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
